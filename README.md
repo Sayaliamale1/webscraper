@@ -8,7 +8,7 @@
 
 ## Folder Structure
 ```
-/client         # React frontend
+/client1         # React frontend
 /server         # Express backend 
 /scraper        # Python scraping script
 ```
@@ -19,7 +19,7 @@
 ```bash
 cd server
 npm install
-cd ../client
+cd ../client1
 npm install
 ```
 
@@ -34,12 +34,12 @@ node index.js
 
 ### 4. Start Frontend
 ```bash
-cd ../client
+cd ../client1
 npm start
 ```
 
 ### 5. Update Google OAuth
-Edit `client/src/index.js`:
+Edit `client1/src/index.js`:
 ```js
 <GoogleOAuthProvider clientId="YOUR_GOOGLE_CLIENT_ID">
 ```
